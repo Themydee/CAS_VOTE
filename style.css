@@ -105,3 +105,123 @@
     width: 35px;
     margin-left: 10px;
 }
+
+/*MEDIA QUERIES FOR MOBILE SCREENS*/
+
+@media screen and (max-width: 1024px){
+    .container{
+        max-width: 100vw;
+        max-height: 100vh;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .content h1{
+        font-size: 58px;
+    }
+
+    .content button{
+        padding: 10px 20px;
+    }
+
+    .content button img{
+        width: 12px;
+    }
+
+    .rocket{
+        width: 180px;
+        margin-right: 20px;  
+    }
+
+    .footer{
+        font-size: 28px;
+    }
+}
+
+
+@media screen and (max-width: 764px){
+    .content{
+        text-align: center;
+    }
+
+    .content h1{
+        font-size: 50px;
+    }
+
+    .rocket{
+        width: 120px;
+        
+    }
+}
+
+@media screen and (max-width: 576px){
+    .content{
+        text-align: center;
+    }
+
+    .content h1{
+        font-size: 45px;
+    }
+
+    .launch-time div{
+        font-size: 24px;
+    }
+
+    .footer{
+        font-size: 22px;
+    }
+
+    .footer img{
+        width: 22px;
+    }
+
+    .rocket{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .content{
+        text-align: center;
+    }
+
+    .content h1{
+        font-size: 35px;
+    }
+
+    .launch-time div{
+        font-size: 18px;
+    }
+
+    .rocket{
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .content{
+        text-align: center;
+    }
+
+    .content h1{
+        font-size: 30px;
+    }
+
+    .launch-time div{
+        font-size: 12px;
+    }
+
+    .footer{
+        font-size: 20px;
+    }
+
+    .footer img{
+        width: 20px;
+    }
+
+    .rocket{
+        width: 60px;
+    }
+}
